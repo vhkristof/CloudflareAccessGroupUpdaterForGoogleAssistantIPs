@@ -23,7 +23,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: execute py script # run main.py
-        env:
+        with:
           CF_ACCESSGROUP_ID: ${{ secrets.CF_ACCESSGROUP_ID }}
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_TOKEN: ${{ secrets.CF_TOKEN }}
