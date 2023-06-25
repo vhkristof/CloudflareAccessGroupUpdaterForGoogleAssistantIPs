@@ -28,4 +28,4 @@ jobs:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_TOKEN: ${{ secrets.CF_TOKEN }}
 
-        run: python script.py --"$CF_ACCOUNT_ID" --"$CF_TOKEN" --"$CF_ACCESSGROUP_ID"
+        run: python script.py --account "$CF_ACCOUNT_ID" --token "$CF_TOKEN" --grop "$CF_ACCESSGROUP_ID"
