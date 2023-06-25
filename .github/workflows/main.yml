@@ -24,5 +24,9 @@ jobs:
 
       - name: execute py script # run main.py
         env:
-          SOME_SECRET: ${{ secrets.SOME_SECRET }}
-        run: python main.py
+          CF_ACCESSGROUP_ID: ${{ secrets.CF_ACCESSGROUP_ID }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_TOKEN: ${{ secrets.CF_TOKEN }}
+
+        run: python script.py --"$CF_ACCOUNT_ID" --"$CF_TOKEN" --"$CF_ACCESSGROUP_ID"
+"
