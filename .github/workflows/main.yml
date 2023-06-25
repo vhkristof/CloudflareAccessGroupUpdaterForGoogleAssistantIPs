@@ -29,4 +29,3 @@ jobs:
           CF_TOKEN: ${{ secrets.CF_TOKEN }}
 
         run: python script.py --"$CF_ACCOUNT_ID" --"$CF_TOKEN" --"$CF_ACCESSGROUP_ID"
-"
