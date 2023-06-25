@@ -6,8 +6,9 @@ on: workflow_dispatch
 
 jobs:
   build:
-    environment: PROD
     runs-on: ubuntu-latest
+    environment:
+      name: PROD
     steps:
 
       - name: checkout repo content
