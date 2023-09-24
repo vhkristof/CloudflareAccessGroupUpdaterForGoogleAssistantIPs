@@ -2,7 +2,7 @@ attrs==22.2.0
 beautifulsoup4==4.11.1
 certifi==2022.12.7
 charset-normalizer==2.1.1
-cloudflare==2.11.1
+cloudflare==2.12.4 #update to 2.12.4 from 2.11.1
 idna==3.4
 jsonlines==3.1.0
 PyYAML==6.0
