@@ -3,6 +3,7 @@ name: main.py
 on:
   schedule:
     - cron: '15 */12 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
