@@ -10,5 +10,6 @@ Script for automatically updating a [CloudFlare Access group](https://developers
 
 ## Script setup
     git clone https://github.com/vhkristof/CloudflareAccessGroupUpdaterForGoogleAssistantIPs
+    cd CloudflareAccessGroupUpdaterForGoogleAssistantIPs
     pip install -r requirements.txt
     python script.py --account <id from step 1> --token <id from step 2> --group <id from step 3>
